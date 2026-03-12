@@ -8,7 +8,7 @@ export default function SetupScreen({ onNext }) {
   const [team2, setTeam2] = useState("");
   const [members, setMembers] = useState(11);
 
-  const memberOptions = [6, 7, 8, 9, 10, 11, 15, 20];
+  const memberOptions = [6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 20];
   const canProceed = team1.trim().length > 0 && team2.trim().length > 0;
 
   return (
